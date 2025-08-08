@@ -43,3 +43,20 @@
 2025-08-08 05:33:16 [main] INFO  proyect.service.PlaybackQueueService - opening browser: https://www.youtube.com/watch?v=hTWKbfoikeg
 2025-08-08 05:33:16 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Rolling in the Deep
 2025-08-08 05:33:17 [main] INFO  proyect.service.PlaybackQueueService - opening browser: https://www.youtube.com/watch?v=rYEDA3JcQqw
+2025-08-08 05:40:01 [main] ERROR proyect.service.DataManager - Error loading data: writing aborted; java.io.NotSerializableException: org.apache.logging.log4j.core.Logger
+2025-08-08 05:40:01 [main] INFO  proyect.service.ProfileService - Profiles loaded: 0
+2025-08-08 05:40:01 [main] ERROR proyect.service.DataManager - Error reading history: writing aborted; java.io.NotSerializableException: org.apache.logging.log4j.core.Logger
+2025-08-08 05:41:09 [main] INFO  proyect.service.ProfileService - Profile created: c13d3a77-17f8-41ac-b489-28f2efd2c1fa - Santiago
+2025-08-08 05:42:29 [main] INFO  proyect.service.PlaylistService - Playlist created: 730aa550-3ee3-4f6a-86c7-fc637fdcbc14 in profile c13d3a77-17f8-41ac-b489-28f2efd2c1fa
+2025-08-08 05:42:39 [main] INFO  proyect.service.PlaylistService - Playlist created: 78318f48-0f64-4a72-a775-3da84370020f in profile c13d3a77-17f8-41ac-b489-28f2efd2c1fa
+2025-08-08 05:43:09 [main] INFO  proyect.service.PlaylistService - songs loaded from C:\Users\SoySp\OneDrive\Escritorio\University\Data Structure\Soundcloud\src\main\resources\songs.txt a playlist 78318f48-0f64-4a72-a775-3da84370020f
+2025-08-08 05:43:50 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Bohemian Rhapsody
+2025-08-08 05:43:50 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Shape of You
+2025-08-08 05:43:50 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Billie Jean
+2025-08-08 05:43:50 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Hotel California
+2025-08-08 05:43:50 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Smells Like Teen Spirit
+2025-08-08 05:43:50 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Rolling in the Deep
+2025-08-08 05:43:52 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Bohemian Rhapsody
+2025-08-08 05:43:53 [main] INFO  proyect.service.PlaybackQueueService - Opening browser: https://www.youtube.com/watch?v=fJ9rUzIMcZQ
+2025-08-08 05:49:26 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Shape of You
+2025-08-08 05:49:26 [main] INFO  proyect.service.PlaybackQueueService - Opening browser: https://www.youtube.com/watch?v=JGwWNGJdvx8

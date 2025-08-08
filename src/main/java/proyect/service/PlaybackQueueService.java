@@ -76,12 +76,12 @@ public class PlaybackQueueService {
     }
 
     private void simulatePlay(Song song) {
+
         String url = song.getUrl();
 
         if (openInBrowser && isValidYoutubeUrl(url) && Desktop.isDesktopSupported()) {
 
             try {
-
                 Desktop.getDesktop().browse(new URI(url));
                 logger.info("Opening browser: {}", url);
 
@@ -91,9 +91,20 @@ public class PlaybackQueueService {
                 int minutes = (int) durationMinutes;
                 int seconds = (int) ((durationMinutes - minutes) * 60);
 
-                System.out.printf(" Waiting %d min %d sec before the next song...\n", minutes, seconds);
+                System.out.printf(" Waiting %d min %d sec or press ENTER to skip...\n", minutes, seconds);
 
-                Thread.sleep(waitTime);
+                long start = System.currentTimeMillis();
+
+                while (System.currentTimeMillis() - start < waitTime) {
+
+                    if (System.in.available() > 0) {
+                        int key = System.in.read();
+                        if (key == '\n') {
+                            break;
+                        }
+                    }
+                    Thread.sleep(200);
+                }
 
             } catch (IOException | URISyntaxException e) {
                 logger.error("Can't open browser {} : {}", url, e.getMessage());

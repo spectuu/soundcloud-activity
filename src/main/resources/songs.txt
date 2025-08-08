@@ -1,6 +1,5 @@
-Bohemian Rhapsody | Queen | 5.55 | https://www.youtube.com/watch?v=fJ9rUzIMcZQ
-Shape of You | Ed Sheeran | 4.24 | https://www.youtube.com/watch?v=JGwWNGJdvx8
-Billie Jean | Michael Jackson | 4.54 | https://www.youtube.com/watch?v=Zi_XLOBDo_Y
-Hotel California | Eagles | 6.31 | https://www.youtube.com/watch?v=EqPtz5qN7HM
-Smells Like Teen Spirit | Nirvana | 5.01 | https://www.youtube.com/watch?v=hTWKbfoikeg
-Rolling in the Deep | Adele | 3.48 | https://www.youtube.com/watch?v=rYEDA3JcQqw
+Bohemian Rhapsody | Queen | 6.00 | https://www.youtube.com/watch?v=fJ9rUzIMcZQ
+Don't Stop Me Now | Queen | 3.33 | https://www.youtube.com/watch?v=HgzGwKwLmgM
+Another One Bites The Dust | Queen | 3.35 | https://www.youtube.com/watch?v=rY0WxgSXdEE
+We Will Rock You | Queen | 2.02 | https://www.youtube.com/watch?v=-tJYN-eG1zk
+Radio Ga Ga | Queen | 5.48 | https://www.youtube.com/watch?v=azdwsXLmrHE
