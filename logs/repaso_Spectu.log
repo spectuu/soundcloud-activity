@@ -77,3 +77,34 @@
 2025-08-08 05:53:34 [main] INFO  proyect.service.PlaybackQueueService - Opening browser: https://www.youtube.com/watch?v=HgzGwKwLmgM
 2025-08-08 05:56:54 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Another One Bites The Dust
 2025-08-08 05:56:54 [main] INFO  proyect.service.PlaybackQueueService - Opening browser: https://www.youtube.com/watch?v=rY0WxgSXdEE
+2025-08-08 06:58:47 [Test worker] INFO  proyect.service.ProfileService - Profile created: 2ee4034c-491c-4ebe-85b8-3407fe04e0b2 - User1
+2025-08-08 06:58:47 [Test worker] INFO  proyect.service.ProfileService - Profile created: 334ed95b-d0ba-4e6d-a43e-a1caf139fde7 - User2
+2025-08-08 06:58:47 [Test worker] INFO  proyect.service.ProfileService - Profile created: bcce4e69-9923-4df1-ab45-886f81b41854 - User5
+2025-08-08 06:58:47 [Test worker] INFO  proyect.service.PlaylistService - Playlist created: 1a502baa-af58-4487-b0b9-dabdcefac4fd in profile bcce4e69-9923-4df1-ab45-886f81b41854
+2025-08-08 06:58:47 [Test worker] INFO  proyect.service.PlaylistService - song added to playlist 1a502baa-af58-4487-b0b9-dabdcefac4fd -> Song1
+2025-08-08 06:58:47 [Test worker] INFO  proyect.service.PlaybackQueueService - Encolada: Song1
+2025-08-08 06:58:47 [Test worker] INFO  proyect.service.PlaybackQueueService - Encolada: Song2
+2025-08-08 06:58:47 [Test worker] INFO  proyect.service.PlaybackQueueService - Playing: Song1
+2025-08-08 06:58:47 [Test worker] WARN  proyect.service.PlaybackQueueService - Not valid URL: https://example.com/1
+2025-08-08 06:58:47 [Test worker] INFO  proyect.service.ProfileService - Profile created: 70642198-75da-4773-8033-c8d73c914f07 - User4
+2025-08-08 06:58:47 [Test worker] INFO  proyect.service.PlaylistService - Playlist created: 42661332-a9a7-42a8-ac03-0e95cba26dbd in profile 70642198-75da-4773-8033-c8d73c914f07
+2025-08-08 06:58:47 [Test worker] ERROR proyect.service.PlaylistService - Error loading file: resources\songs.txt
+2025-08-08 06:58:47 [Test worker] INFO  proyect.service.ProfileService - Profile created: c8fb98d5-3f49-4514-aad7-d41f6d33b5d8 - User3
+2025-08-08 06:58:47 [Test worker] INFO  proyect.service.PlaylistService - Playlist created: ce196d03-a4e4-4549-a178-80752cd1f822 in profile c8fb98d5-3f49-4514-aad7-d41f6d33b5d8
+2025-08-08 06:58:47 [Test worker] INFO  proyect.service.PlaybackQueueService - Encolada: Song3
+2025-08-08 06:58:47 [Test worker] INFO  proyect.service.PlaybackQueueService - Playing: Song3
+2025-08-08 06:58:47 [Test worker] WARN  proyect.service.PlaybackQueueService - Not valid URL: https://example.com/3
+2025-08-08 07:01:31 [Test worker] INFO  proyect.service.ProfileService - Profile created: 9940c92e-717a-4609-b0be-96205789920f - User1
+2025-08-08 07:01:31 [Test worker] INFO  proyect.service.ProfileService - Profile created: ec2aa4a6-b9c0-46cd-8057-597971f7a973 - User2
+2025-08-08 07:01:31 [Test worker] INFO  proyect.service.ProfileService - Profile created: d9b7c286-51ce-48a1-8302-3b8b9d1eace8 - User5
+2025-08-08 07:01:31 [Test worker] INFO  proyect.service.PlaylistService - Playlist created: d6c2b68c-4b01-492b-aaf9-3f6a98b585ea in profile d9b7c286-51ce-48a1-8302-3b8b9d1eace8
+2025-08-08 07:01:31 [Test worker] INFO  proyect.service.PlaylistService - song added to playlist d6c2b68c-4b01-492b-aaf9-3f6a98b585ea -> Song1
+2025-08-08 07:01:31 [Test worker] INFO  proyect.service.PlaybackQueueService - Encolada: Song1
+2025-08-08 07:01:31 [Test worker] INFO  proyect.service.PlaybackQueueService - Encolada: Song2
+2025-08-08 07:01:31 [Test worker] INFO  proyect.service.PlaybackQueueService - Playing: Song1
+2025-08-08 07:01:31 [Test worker] WARN  proyect.service.PlaybackQueueService - Not valid URL: https://example.com/1
+2025-08-08 07:01:31 [Test worker] INFO  proyect.service.ProfileService - Profile created: 55ba1fb1-8fc9-4f0d-9b94-f4632fe86a11 - User3
+2025-08-08 07:01:31 [Test worker] INFO  proyect.service.PlaylistService - Playlist created: bf806ffe-59bd-41fa-81c3-22f51849d353 in profile 55ba1fb1-8fc9-4f0d-9b94-f4632fe86a11
+2025-08-08 07:01:31 [Test worker] INFO  proyect.service.PlaybackQueueService - Encolada: Song3
+2025-08-08 07:01:31 [Test worker] INFO  proyect.service.PlaybackQueueService - Playing: Song3
+2025-08-08 07:01:31 [Test worker] WARN  proyect.service.PlaybackQueueService - Not valid URL: https://example.com/3

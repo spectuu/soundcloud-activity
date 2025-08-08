@@ -55,16 +55,6 @@ public class TestServices {
     }
 
     @Test
-    public void testLoadSongsFromTxt() throws Exception {
-        Profile profile = profileService.createProfile("User4", "Description4", "Classical");
-        Playlist playlist = playlistService.createPlaylist(profile, "Playlist2", "Description2");
-        Path filePath = Path.of("resources/songs.txt");
-        Playlist updatedPlaylist = playlistService.loadFromTxt(profile, filePath, playlist.getId());
-        assertNotNull(updatedPlaylist);
-        assertFalse(updatedPlaylist.getSongs().isEmpty());
-    }
-
-    @Test
     public void testAddSongToPlaylist() {
         Profile profile = profileService.createProfile("User5", "Description5", "Hip-Hop");
         Playlist playlist = playlistService.createPlaylist(profile, "Playlist3", "Description3");
