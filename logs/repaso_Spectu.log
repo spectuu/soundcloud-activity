@@ -75,3 +75,5 @@
 2025-08-08 05:53:28 [main] INFO  proyect.service.PlaybackQueueService - Opening browser: https://www.youtube.com/watch?v=fJ9rUzIMcZQ
 2025-08-08 05:53:34 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Don't Stop Me Now
 2025-08-08 05:53:34 [main] INFO  proyect.service.PlaybackQueueService - Opening browser: https://www.youtube.com/watch?v=HgzGwKwLmgM
+2025-08-08 05:56:54 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Another One Bites The Dust
+2025-08-08 05:56:54 [main] INFO  proyect.service.PlaybackQueueService - Opening browser: https://www.youtube.com/watch?v=rY0WxgSXdEE
