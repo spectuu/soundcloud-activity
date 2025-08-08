@@ -60,3 +60,18 @@
 2025-08-08 05:43:53 [main] INFO  proyect.service.PlaybackQueueService - Opening browser: https://www.youtube.com/watch?v=fJ9rUzIMcZQ
 2025-08-08 05:49:26 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Shape of You
 2025-08-08 05:49:26 [main] INFO  proyect.service.PlaybackQueueService - Opening browser: https://www.youtube.com/watch?v=JGwWNGJdvx8
+2025-08-08 05:51:32 [main] ERROR proyect.service.DataManager - Error loading data: writing aborted; java.io.NotSerializableException: org.apache.logging.log4j.core.Logger
+2025-08-08 05:51:32 [main] INFO  proyect.service.ProfileService - Profiles loaded: 0
+2025-08-08 05:51:32 [main] ERROR proyect.service.DataManager - Error reading history: writing aborted; java.io.NotSerializableException: org.apache.logging.log4j.core.Logger
+2025-08-08 05:52:05 [main] INFO  proyect.service.ProfileService - Profile created: 9c50cf7b-ee96-49ff-a744-ce8c7e6dce3c - Santiago
+2025-08-08 05:52:18 [main] INFO  proyect.service.PlaylistService - Playlist created: 8698526e-17da-4935-a5c9-847210e2c83a in profile 9c50cf7b-ee96-49ff-a744-ce8c7e6dce3c
+2025-08-08 05:53:00 [main] INFO  proyect.service.PlaylistService - songs loaded from C:\Users\SoySp\OneDrive\Escritorio\University\Data Structure\Soundcloud\src\main\resources\songs.txt a playlist 8698526e-17da-4935-a5c9-847210e2c83a
+2025-08-08 05:53:20 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Bohemian Rhapsody
+2025-08-08 05:53:20 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Don't Stop Me Now
+2025-08-08 05:53:20 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Another One Bites The Dust
+2025-08-08 05:53:20 [main] INFO  proyect.service.PlaybackQueueService - Encolada: We Will Rock You
+2025-08-08 05:53:20 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Radio Ga Ga
+2025-08-08 05:53:27 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Bohemian Rhapsody
+2025-08-08 05:53:28 [main] INFO  proyect.service.PlaybackQueueService - Opening browser: https://www.youtube.com/watch?v=fJ9rUzIMcZQ
+2025-08-08 05:53:34 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Don't Stop Me Now
+2025-08-08 05:53:34 [main] INFO  proyect.service.PlaybackQueueService - Opening browser: https://www.youtube.com/watch?v=HgzGwKwLmgM
