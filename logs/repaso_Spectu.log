@@ -4,3 +4,42 @@
 2025-08-08 05:18:48 [main] INFO  proyect.service.ProfileService - Profile created: af112b73-d743-487e-8352-a35857fa31ca - Santiago
 2025-08-08 05:19:09 [main] INFO  proyect.service.PlaylistService - Playlist created: ebd06d18-14cd-4c2a-bf69-cabc1cbf0d52 in profile af112b73-d743-487e-8352-a35857fa31ca
 2025-08-08 05:20:13 [main] ERROR proyect.MainMenu - Error adding song: Invalid UUID string: 0
+2025-08-08 05:22:17 [main] WARN  proyect.MainMenu - Playlist not found: af112b73-d743-487e-8352-a35857fa31ca
+2025-08-08 05:23:02 [main] INFO  proyect.service.PlaylistService - songs loaded from C:\Users\SoySp\OneDrive\Escritorio\University\Data Structure\Soundcloud\src\main\resources\songs.txt a playlist ebd06d18-14cd-4c2a-bf69-cabc1cbf0d52
+2025-08-08 05:26:43 [main] ERROR proyect.service.DataManager - Error saving data: org.apache.logging.log4j.core.Logger
+2025-08-08 05:29:58 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Bohemian Rhapsody
+2025-08-08 05:29:58 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Shape of You
+2025-08-08 05:29:58 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Billie Jean
+2025-08-08 05:29:58 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Hotel California
+2025-08-08 05:29:58 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Smells Like Teen Spirit
+2025-08-08 05:29:58 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Rolling in the Deep
+2025-08-08 05:30:02 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Bohemian Rhapsody
+2025-08-08 05:30:02 [main] INFO  proyect.service.PlaybackQueueService - opening browser: https://www.youtube.com/watch?v=fJ9rUzIMcZQ
+2025-08-08 05:30:02 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Shape of You
+2025-08-08 05:30:02 [main] INFO  proyect.service.PlaybackQueueService - opening browser: https://www.youtube.com/watch?v=JGwWNGJdvx8
+2025-08-08 05:30:02 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Billie Jean
+2025-08-08 05:30:02 [main] INFO  proyect.service.PlaybackQueueService - opening browser: https://www.youtube.com/watch?v=Zi_XLOBDo_Y
+2025-08-08 05:30:02 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Hotel California
+2025-08-08 05:30:02 [main] INFO  proyect.service.PlaybackQueueService - opening browser: https://www.youtube.com/watch?v=EqPtz5qN7HM
+2025-08-08 05:30:02 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Smells Like Teen Spirit
+2025-08-08 05:30:02 [main] INFO  proyect.service.PlaybackQueueService - opening browser: https://www.youtube.com/watch?v=hTWKbfoikeg
+2025-08-08 05:30:02 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Rolling in the Deep
+2025-08-08 05:30:03 [main] INFO  proyect.service.PlaybackQueueService - opening browser: https://www.youtube.com/watch?v=rYEDA3JcQqw
+2025-08-08 05:33:05 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Bohemian Rhapsody
+2025-08-08 05:33:05 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Shape of You
+2025-08-08 05:33:05 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Billie Jean
+2025-08-08 05:33:05 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Hotel California
+2025-08-08 05:33:05 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Smells Like Teen Spirit
+2025-08-08 05:33:05 [main] INFO  proyect.service.PlaybackQueueService - Encolada: Rolling in the Deep
+2025-08-08 05:33:16 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Bohemian Rhapsody
+2025-08-08 05:33:16 [main] INFO  proyect.service.PlaybackQueueService - opening browser: https://www.youtube.com/watch?v=fJ9rUzIMcZQ
+2025-08-08 05:33:16 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Shape of You
+2025-08-08 05:33:16 [main] INFO  proyect.service.PlaybackQueueService - opening browser: https://www.youtube.com/watch?v=JGwWNGJdvx8
+2025-08-08 05:33:16 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Billie Jean
+2025-08-08 05:33:16 [main] INFO  proyect.service.PlaybackQueueService - opening browser: https://www.youtube.com/watch?v=Zi_XLOBDo_Y
+2025-08-08 05:33:16 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Hotel California
+2025-08-08 05:33:16 [main] INFO  proyect.service.PlaybackQueueService - opening browser: https://www.youtube.com/watch?v=EqPtz5qN7HM
+2025-08-08 05:33:16 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Smells Like Teen Spirit
+2025-08-08 05:33:16 [main] INFO  proyect.service.PlaybackQueueService - opening browser: https://www.youtube.com/watch?v=hTWKbfoikeg
+2025-08-08 05:33:16 [main] INFO  proyect.service.PlaybackQueueService - playing (playAll): Rolling in the Deep
+2025-08-08 05:33:17 [main] INFO  proyect.service.PlaybackQueueService - opening browser: https://www.youtube.com/watch?v=rYEDA3JcQqw

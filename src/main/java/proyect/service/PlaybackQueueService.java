@@ -76,7 +76,6 @@ public class PlaybackQueueService {
     }
 
     private void simulatePlay(Song song) {
-
         String url = song.getUrl();
 
         if (openInBrowser && isValidYoutubeUrl(url) && Desktop.isDesktopSupported()) {
@@ -84,24 +83,35 @@ public class PlaybackQueueService {
             try {
 
                 Desktop.getDesktop().browse(new URI(url));
-                logger.info("opening browser: {}", url);
+                logger.info("Opening browser: {}", url);
+
+                double durationMinutes = song.getDuration();
+                long waitTime = (long) (durationMinutes * 60 * 1000);
+
+                int minutes = (int) durationMinutes;
+                int seconds = (int) ((durationMinutes - minutes) * 60);
+
+                System.out.printf(" Waiting %d min %d sec before the next song...\n", minutes, seconds);
+
+                Thread.sleep(waitTime);
 
             } catch (IOException | URISyntaxException e) {
-
-                logger.error("Cant open browser {} : {}", url, e.getMessage());
-
-                System.out.println("playing in browser: " + url);
+                logger.error("Can't open browser {} : {}", url, e.getMessage());
+                System.out.println("Playing in browser: " + url);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                logger.error("Playback interrupted: {}", e.getMessage());
             }
 
         } else {
-
-            System.out.println("playing (simulated): " + song);
+            System.out.println("Playing (simulated): " + song);
             System.out.println("URL: " + url);
 
             if (!isValidYoutubeUrl(url)) {
-                logger.warn("not valid URL: " + url);
+                logger.warn("Not valid URL: " + url);
             }
         }
+
     }
 
 
