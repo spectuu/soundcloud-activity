@@ -1,5 +1,7 @@
 package proyect.service;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import proyect.model.Profile;
 
 import java.io.*;
@@ -7,11 +9,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Logger;
 
 public class DataManager {
 
-    private static final Logger logger = Logger.getLogger(DataManager.class.getName());
+    private static final Logger logger = LogManager.getLogger(DataManager.class);
     private final Path storageFile;
 
     public DataManager(Path storageFile) {
@@ -20,11 +21,11 @@ public class DataManager {
             try {
                 Files.createFile(storageFile);
             } catch (IOException e) {
-                logger.severe("Error creating storage file: " + e.getMessage());
+                logger.error("Error creating storage file: {}", e.getMessage());
                 throw new RuntimeException("Could not create storage file", e);
             }
         } else if (!Files.isRegularFile(storageFile)) {
-            logger.severe("Storage path is not a regular file: " + storageFile.toAbsolutePath());
+            logger.error("Storage path is not a regular file: {}", storageFile.toAbsolutePath());
             throw new IllegalArgumentException("Storage path must be a regular file");
         }
 
@@ -43,35 +44,37 @@ public class DataManager {
                 oos.writeObject(playbackHistory);
             }
 
-            logger.info("data saved " + storageFile.toAbsolutePath());
+            logger.info("data saved {}", storageFile.toAbsolutePath());
 
         } catch (IOException e) {
 
-            logger.severe("Error saving data: " + e.getMessage());
+            logger.error("Error saving data: {}", e.getMessage());
 
         }
     }
 
     public List<Profile> loadProfiles() {
+
         if (!Files.exists(storageFile)) {
-            logger.info("Data not exist: " + storageFile.toAbsolutePath());
+            logger.info("Data not exist: {}", storageFile.toAbsolutePath());
             return new ArrayList<>();
         }
+
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream(storageFile.toFile()))) {
 
-            Object p = ois.readObject();
+            Object profiles = ois.readObject();
 
-            if (p instanceof List) {
+            if (profiles instanceof List) {
 
-                return (List<Profile>) p;
+                return (List<Profile>) profiles;
 
             } else {
-                logger.warning("Unexpected data format in storage file: " + storageFile.toAbsolutePath());
+                logger.warn("Unexpected data format in storage file: {}", storageFile.toAbsolutePath());
             }
 
         } catch (Exception e) {
 
-            logger.severe("Error loading data: " + e.getMessage());
+            logger.error("Error loading data: {}", e.getMessage());
 
         }
 
@@ -88,7 +91,7 @@ public class DataManager {
             return ois.readObject();
 
         } catch (Exception e) {
-            logger.severe("Error reading history: " + e.getMessage());
+            logger.error("Error reading history: {}", e.getMessage());
         }
 
         return null;

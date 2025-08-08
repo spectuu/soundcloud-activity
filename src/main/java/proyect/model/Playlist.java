@@ -1,18 +1,19 @@
 package proyect.model;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.IOException;
 import java.io.Serializable;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.UUID;
-import java.util.logging.Logger;
 
 public class Playlist implements Serializable {
 
-    private static final Logger log = Logger.getLogger(Playlist.class.getName());
+    private final Logger logger = LogManager.getLogger(Playlist.class);
 
     private final UUID id;
     private final String name;
@@ -22,7 +23,7 @@ public class Playlist implements Serializable {
     public Playlist(String name, String description) {
 
         if (name == null || description == null || name.isEmpty() || description.isEmpty()) {
-            log.severe("Invalid playlist creation parameters: " + name + ", " + description);
+            logger.error("Invalid playlist creation parameters: {}, {}", name, description);
             throw new IllegalArgumentException("Name and description cannot be null or empty");
         }
 
@@ -34,7 +35,7 @@ public class Playlist implements Serializable {
             this.songs = new ArrayList<>();
 
         } catch (Exception e) {
-            log.severe("Error creating playlist: " + e.getMessage());
+            logger.error("Error creating playlist: {}", e.getMessage());
             throw new RuntimeException("Error creating playlist", e);
         }
 

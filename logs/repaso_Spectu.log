@@ -1,0 +1,6 @@
+2025-08-08 05:18:33 [main] ERROR proyect.service.DataManager - Error loading data: null
+2025-08-08 05:18:33 [main] INFO  proyect.service.ProfileService - Profiles loaded: 0
+2025-08-08 05:18:33 [main] ERROR proyect.service.DataManager - Error reading history: null
+2025-08-08 05:18:48 [main] INFO  proyect.service.ProfileService - Profile created: af112b73-d743-487e-8352-a35857fa31ca - Santiago
+2025-08-08 05:19:09 [main] INFO  proyect.service.PlaylistService - Playlist created: ebd06d18-14cd-4c2a-bf69-cabc1cbf0d52 in profile af112b73-d743-487e-8352-a35857fa31ca
+2025-08-08 05:20:13 [main] ERROR proyect.MainMenu - Error adding song: Invalid UUID string: 0
